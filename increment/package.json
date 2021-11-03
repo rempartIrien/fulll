@@ -1,0 +1,35 @@
+{
+  "name": "increment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "test": "jest src",
+    "test:watch": "jest src --watch",
+    "build": "tsc",
+    "lint": "eslint -c .eslintrc.js --ext .ts src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rempartIrien/fulll/increment"
+  },
+  "author": "Pierre Martin-Henry",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-typescript": "^3.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1",
+    "ts-jest": "^27.0.7",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
