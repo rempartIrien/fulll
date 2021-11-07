@@ -1,8 +1,8 @@
 # Checkbox
 
-This project lets people search for users on Github.
+This project displays four checkboxes and a "master" checkbox that rule them all.
 
-This project has been scaffold with Create React App.
+This project has been scaffold with Vite.js.
 
 Code is written with TypeScript and tests with Jest.
 
@@ -22,4 +22,10 @@ npm run dev
 
 ```bsah
 npm run build
+```
+
+## Run project in production mode
+
+```bsah
+npm run serve
 ```

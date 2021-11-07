@@ -1,8 +1,6 @@
-# Checkbox
+# Increment
 
-This project lets people search for users on Github.
-
-This project has been scaffold with Create React App.
+This project increments an array of digits by 1.
 
 Code is written with TypeScript and tests with Jest.
 
@@ -15,7 +13,7 @@ npm run test
 ## Run app
 
 ```bsah
-npm run dev
+npm run start "$ARRAY_IN_JSON"
 ```
 
 ## Build project
